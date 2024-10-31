@@ -1,0 +1,50 @@
+
+
+.secLandPicContent{
+    background-image: url('../../assets/Images/seclandingpic.png');
+    background-position: center;
+    background-size: cover;
+    height: 575px;
+}
+.firstContent{
+    
+        padding-top: 30px;
+        padding-inline: 80px;
+        text-transform: capitalize;
+        font-size: 32px;
+        text-align: center;
+        font-weight: 600;
+       
+    
+}
+.largePg{
+    text-align: start;
+    margin-top: 25px !important;
+}
+
+/*media query...*/
+@media (max-width:1268px) {
+    .firstContent{
+        font-size: 28px;
+    }
+    .largePg{
+        font-size: 20px !important;
+    }
+}
+@media (max-width:1115px) {
+    .firstContent{
+        font-size: 25px;
+    }
+    .largePg{
+        font-size: 17px !important;
+    }
+}
+@media (max-width:850px) {
+    .firstContent{
+        font-size: 20px;
+    }
+    .largePg{
+        font-size: 13px !important;
+        line-height: 1.2;
+    }
+}

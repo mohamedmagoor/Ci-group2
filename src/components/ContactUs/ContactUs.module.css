@@ -1,0 +1,18 @@
+.selectedBox{
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    color: white;
+    background-color: var(--main-color);
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%);
+    border-radius: 8px;
+    cursor: pointer;
+}
+.closeBtn {
+    font-size: 40px;
+    position: absolute;
+    right: 0;
+    top: -3px;
+}
