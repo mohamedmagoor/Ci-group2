@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from "./Footer.module.css"
-import Cabient from "../../assets/Images/cabientLogo.png"
-import Dental from "../../assets/Images/dentalSecrets.png"
+
 import { Link } from 'react-router-dom'
 
 export default function Footer() {
@@ -10,8 +9,8 @@ export default function Footer() {
 
       <div className="row">
         <div className="col-md-4 p-5 text-center d-flex align-items-center justify-content-center">
-          <img src={Cabient} alt="" />
-          <img src={Dental} alt="" />
+          <img src="/public/Images/cabientLogo.png" alt="" />
+          <img src="/public/Images/dentalSecrets.png" alt="" />
         </div>
         <div className="col-md-4 p-5 text-center">
           <div style={{gap:'30px',fontSize:'20px'}} className="links-nav d-flex justify-content-center align-items-center">

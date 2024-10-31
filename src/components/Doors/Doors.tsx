@@ -1,12 +1,5 @@
 import React from 'react'
-import Door1 from "../../assets/Images/Doors/door1.png"
-import Door3 from "../../assets/Images/Doors/door2.png"
-import Door4 from "../../assets/Images/Doors/door3.png"
-import Door5 from "../../assets/Images/Doors/door4.png"
-import Door6 from "../../assets/Images/Doors/door5.png"
-import Door7 from "../../assets/Images/Doors/door6.png"
-import Door8 from "../../assets/Images/Doors/door7.png"
-import Door2 from "../../assets/Images/Doors/door8.png"
+
 
 export default function Doors() {
   return <>
@@ -15,28 +8,28 @@ export default function Doors() {
 
   <div className="row mx-4 my-4">
     <div className="col-md-3 p-2  col-lg-3 mb-5 text-center">
-      <img src={Door1} alt="" />
+      <img src="/public/Images/Doors/door1.png" alt="" />
     </div>
     <div className="col-md-4  p-2 col-lg-3 mb-5 text-center">
-      <img src={Door2} alt="" />
+      <img src="/public/Images/Doors/door2.png" alt="" />
     </div>
     <div className="col-md-4 p-2 col-lg-3 mb-5 text-center">
-      <img src={Door3} alt="" />
+      <img src="/public/Images/Doors/door3.png" alt="" />
     </div>
     <div className="col-md-4 p-2 col-lg-3 mb-5 text-center">
-      <img src={Door4} alt="" />
+      <img src="/public/Images/Doors/door4.png" alt="" />
     </div>
     <div className="col-md-4 p-2 col-lg-3 mb-5 text-center">
-      <img src={Door5} alt="" />
+      <img src="/public/Images/Doors/door5.png" alt="" />
     </div>
     <div className="col-md-4 p-2 col-lg-3 mb-5 text-center">
-      <img src={Door6} alt="" />
+      <img src="/public/Images/Doors/door6.png" alt="" />
     </div>
     <div className="col-md-4 p-2 col-lg-3 mb-5 text-center">
-      <img src={Door7} alt="" />
+      <img src="/public/Images/Doors/door7.png" alt="" />
     </div>
     <div className="col-md-4 p-2 col-lg-3 mb-5 text-center">
-      <img src={Door8} alt="" />
+      <img src="/public/Images/Doors/door8.png" alt="" />
     </div>
   </div>
   </div>

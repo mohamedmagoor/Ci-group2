@@ -1,7 +1,7 @@
 
 
 .homeImg {
-    background-image: url(../../assets/Images/landingpic.png);
+    background-image: url("/public/Images/landingpic.png");
     background-size: cover; 
     background-position: center;
     height:900px;
@@ -31,7 +31,7 @@
 .secHomeImg {
 
     height: 500px;
-    background-image: url(../../assets/Images/seclandingpic.png);
+    background-image: url("/public/Images/seclandingpic.png");
     background-size: cover; 
     background-position: center;
 }

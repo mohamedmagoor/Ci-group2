@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from "./Navbar.module.css"
-import logo from '../../assets/Images/Ci Group Logo aqua png 1.png'
 import { Link, NavLink, useLocation } from 'react-router-dom'
 
 export default function Navbar() {
@@ -18,7 +17,7 @@ export default function Navbar() {
   <nav style={navbarStyle} className="navbar navbar-expand-lg  fixed-top">
   <div className="container">
     <Link className="navbar-brand" to={'/'}>
-      <img src={logo} alt="" />
+      <img src="/public/Images/Ci Group Logo aqua png 1.png" alt="" />
     </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>

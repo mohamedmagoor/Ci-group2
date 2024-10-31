@@ -1,7 +1,7 @@
 
 
 .secLandPicContent{
-    background-image: url('../../assets/Images/seclandingpic.png');
+    background-image: url("/public/Images/seclandingpic.png");
     background-position: center;
     background-size: cover;
     height: 575px;

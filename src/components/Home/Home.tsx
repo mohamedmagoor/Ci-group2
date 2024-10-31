@@ -1,10 +1,6 @@
 import React from 'react'
 import styles from "./Home.module.css"
 import { Link } from 'react-router-dom'
-import Doors from "../../assets/Images/Doors.png"
-import Dressing from "../../assets/Images/dressing.png"
-import Kitchen from "../../assets/Images/kitchen.png"
-import Interior from "../../assets/Images/interior.png"
 
 
 export default function Home() {
@@ -37,12 +33,12 @@ export default function Home() {
           <h3 style={{fontSize:'50px',color:'white',fontWeight:'700'}}>Gallery</h3>
         </div>
         <div className="col-md-4 text-center">
-          <img className='w-75 py-3 cursor-pointer' src={Doors} alt="" />
-          <img className='w-75 py-3 cursor-pointer' src={Interior} alt="" />
+          <img className='w-75 py-3 cursor-pointer' src="/public/Images/Doors.png" alt="" />
+          <img className='w-75 py-3 cursor-pointer' src="/public/Images/interior.png" alt="" />
         </div>
         <div className="col-md-4 text-center">
-        <img className='w-75 py-3 cursor-pointer' src={Dressing} alt="" />
-        <img className='w-75 py-3 cursor-pointer' src={Kitchen} alt="" />
+        <img className='w-75 py-3 cursor-pointer' src="/public/Images/dressing.png" alt="" />
+        <img className='w-75 py-3 cursor-pointer' src="/public/Images/kitchen.png" alt="" />
         </div>
         </div>
 
